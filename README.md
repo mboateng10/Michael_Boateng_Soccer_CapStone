@@ -47,11 +47,11 @@ The analysis was conducted using R.
 
 Michael_Boateng_EPL_Capstone/
 
-- 01_Load_Packages.R
-- 02_Import_Data.R
-- 03_Clean_Data.R
-- 04_EDA.R
-- 05_Visualization_Statistics.R
+- 00_Load_Packages.R
+- 01_Import_Data.R
+- 02_Clean_Data.R
+- 03_EDA.R
+- 04_Visualization_Statistics.R
 - data/
   - raw/
     - events_England.json
