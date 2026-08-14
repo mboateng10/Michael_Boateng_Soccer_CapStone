@@ -47,7 +47,7 @@ Wyscout dataset:
 
 Place the files in:
 
-data/raw/
+data/raw/ 
 
 The analysis scripts expect this directory structure.
 
@@ -74,7 +74,7 @@ Michael_Boateng_EPL_Capstone/
 - 03_EDA.R
 - 04_Visualization_Statistics.R
 - data/
-  - raw/
+  - raw/ *(not included in repository; see Data Availability)*
     - events_England.json
     - players.json
     - teams.json
