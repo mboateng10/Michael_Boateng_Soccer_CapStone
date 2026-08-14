@@ -84,11 +84,11 @@ The project follows the following workflow:
 
 Run the R scripts in the following order:
 
-1. `01_Load_Packages.R`
-2. `02_Import_Data.R`
-3. `03_Clean_Data.R`
-4. `04_EDA.R`
-5. `05_Visualization_Statistics.R`
+1. `00_Load_Packages.R`
+2. `01_Import_Data.R`
+3. `02_Clean_Data.R`
+4. `03_EDA.R`
+5. `04_Visualization_Statistics.R`
 
 The raw JSON files is stored inside:
 
