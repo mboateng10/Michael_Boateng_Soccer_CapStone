@@ -90,7 +90,7 @@ Run the R scripts in the following order:
 4. `04_EDA.R`
 5. `05_Visualization_Statistics.R`
 
-The raw JSON files should be stored inside:
+The raw JSON files is stored inside:
 
 `data/raw/`
 
