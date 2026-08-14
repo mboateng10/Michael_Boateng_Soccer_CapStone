@@ -57,7 +57,6 @@ Michael_Boateng_EPL_Capstone/
     - events_England.json
     - players.json
     - teams.json
-- outputs/
   - figures/
   - tables/
 - report/
@@ -90,17 +89,17 @@ Run the R scripts in the following order:
 4. `03_EDA.R`
 5. `04_Visualization_Statistics.R`
 
-The raw JSON files is stored inside:
+The raw JSON files are stored inside:
 
 `data/raw/`
 
 Generated figures are saved inside:
 
-`outputs/figures/`
+`figures/`
 
 Generated tables are saved inside:
 
-`outputs/tables/`
+`tables/`
 
 ## Key Findings
 
