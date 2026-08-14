@@ -66,22 +66,35 @@ The analysis was conducted using R.
 
 ## Project Structure
 
-Michael_Boateng_EPL_Capstone/
-
-- 00_Load_Packages.R
-- 01_Import_Data.R
-- 02_Clean_Data.R
-- 03_EDA.R
-- 04_Visualization_Statistics.R
-- data/
-  - raw/ *(not included in repository; see Data Availability)*
-    - events_England.json
-    - players.json
-    - teams.json
-  - figures/
-  - tables/
-- report/
-  - Michael_Boateng_Capstone_Report.pdf
+```text
+Michael_Boateng_Soccer_CapStone/
+│
+├── scripts/
+│   ├── 00_Load_Packages.R
+│   ├── 01_Import_Data.R
+│   ├── 02_Clean_Data.R
+│   ├── 03_EDA.R
+│   └── 04_Visualization_Statistics.R
+│
+├── figures/
+│   └── Generated data visualizations
+│
+├── tables/
+│   └── Generated summary tables
+│
+├── report/
+│   └── Michael_Boateng_Capstone_Report.pdf
+│
+├── data/
+│   └── raw/
+│       ├── events_England.json
+│       ├── players.json
+│       └── teams.json
+│       (Raw data not included in GitHub repository)
+│
+├── .gitignore
+├── Michael_Boateng_Soccer_Capstone.Rproj
+└── README.md
 
 ## Analytical Workflow
 
@@ -136,6 +149,20 @@ The final attacking-event dataset contained 342,225 observations.
 - Cramer's V was 0.1192, indicating a relatively modest association.
 
 Because passing dominates the constructed measure, attacking-event totals are interpreted as measures of attacking and build-up involvement rather than direct measures of attacking effectiveness.
+
+## Skills Demonstrated
+
+- Data cleaning and transformation with R
+- Exploratory data analysis
+- Data integration and joins
+- Data visualization with ggplot2
+- Statistical hypothesis testing
+- Chi-square test of independence
+- Cramer's V effect-size analysis
+- Standardized residual analysis
+- Reproducible analytical workflows
+- GitHub project documentation
+- Communicating analytical findings
 
 ## Author
 
