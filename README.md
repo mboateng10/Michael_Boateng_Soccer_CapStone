@@ -30,6 +30,27 @@ Pappalardo, L., Cintia, P., Rossi, A., Massucco, E., Ferragina, P., Pedreschi, D
 *A public data set of spatio-temporal match events in soccer competitions.*  
 Scientific Data, 6, 236.
 
+## Data Availability
+
+The raw data used in this project come from the Wyscout Soccer Match
+Event Dataset.
+
+The raw JSON files are not included in this GitHub repository because
+the main event file exceeds GitHub's standard file-size limit.
+
+To reproduce the analysis, obtain the following files from the original
+Wyscout dataset:
+
+- events_England.json
+- players.json
+- teams.json
+
+Place the files in:
+
+data/raw/
+
+The analysis scripts expect this directory structure.
+
 ## Software
 
 The analysis was conducted using R.
