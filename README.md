@@ -4,7 +4,8 @@
 
 This capstone project analyzes event-level football data from the English Premier League using R.
 
-The project examines attacking involvement across event types, passing sub-events, player positions, teams, and individual players. It also uses statistical analysis to investigate whether player position is associated with attacking event type.
+The project examines attacking involvement across event types, passing sub-events, player positions, teams, and individual players. 
+It also uses statistical analysis to investigate whether player position is associated with attacking event type.
 
 For this project, attacking involvement is operationally defined using selected passes, shots, offsides, corners, free-kick crosses, free-kick shots, and penalties.
 
@@ -148,7 +149,8 @@ The final attacking-event dataset contained 342,225 observations.
 - The Chi-Square Test produced X-squared = 14,592 with 9 degrees of freedom and p < 0.001.
 - Cramer's V was 0.1192, indicating a relatively modest association.
 
-Because passing dominates the constructed measure, attacking-event totals are interpreted as measures of attacking and build-up involvement rather than direct measures of attacking effectiveness.
+Because passing dominates the constructed measure, attacking-event totals are interpreted as measures of attacking and
+build-up involvement rather than direct measures of attacking effectiveness.
 
 ## Skills Demonstrated
 
